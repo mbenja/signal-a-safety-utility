@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Signal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4gl-4x-EXD">
+                                <rect key="frame" x="149" y="518" width="22" height="22"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="ButtonInstructions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YX0-Ip-ohm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wdx-gM-ETP" userLabel="btnMessage">
+                                <rect key="frame" x="110" y="372" width="100" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="ibn-el-0e0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="20"/>
+                                <state key="normal" title="Message">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="ButtonMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="beb-KA-rba"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hn7-BX-nsd">
+                                <rect key="frame" x="10" y="204" width="300" height="160"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="gBb-o0-li6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="35"/>
+                                <size key="titleShadowOffset" width="2.2250738585072014e-308" height="2.2250738585072014e-308"/>
+                                <state key="normal" title="Distress Signal" backgroundImage="distress_gradient.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ButtonSignal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="860-qv-GIr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qFt-eq-3M4">
+                                <rect key="frame" x="200" y="20" width="100" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Jh6-aK-6rL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="20"/>
+                                <state key="normal" title=" Passcode">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="ButtonChangePasscode:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4rD-MB-VwU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="awJ-Fi-HHI" userLabel="btnRecipients">
+                                <rect key="frame" x="20" y="20" width="100" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="kcF-CU-Q9H"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="20"/>
+                                <state key="normal" title="Recipients">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="ButtonRecipients:" destination="BYZ-38-t0r" eventType="touchUpInside" id="90D-ko-JQs"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Set a list of contacts to receive signals" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="7" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wwm-FX-6rF">
+                                <rect key="frame" x="15" y="64" width="110" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="6Ho-rB-Zcc"/>
+                                    <constraint firstAttribute="width" constant="110" id="Mcw-jk-oZn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Change the passcode used to signal safety" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="7" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pN0-OJ-YKJ">
+                                <rect key="frame" x="195" y="64" width="110" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="PW0-37-uax"/>
+                                    <constraint firstAttribute="height" constant="60" id="ll4-eh-5F2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set a message to send when signalling distress" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JQ6-KJ-nLh">
+                                <rect key="frame" x="80" y="409" width="160" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="INF-4N-LUC"/>
+                                    <constraint firstAttribute="height" constant="60" id="N44-gW-GWo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TWS-lG-tVD">
+                                <rect key="frame" x="137" y="518" width="46" height="30"/>
+                                <state key="normal" title="Done"/>
+                                <connections>
+                                    <action selector="btnDone:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6hj-4H-NnR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Swipe to change signal          " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5q1-XM-FH5">
+                                <rect key="frame" x="75" y="166" width="170" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4gl-4x-EXD" secondAttribute="bottom" constant="28" id="61H-vT-Gwb"/>
+                            <constraint firstItem="Wdx-gM-ETP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6JI-9U-vua"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pN0-OJ-YKJ" secondAttribute="trailing" constant="-5" id="7Cf-WH-Th8"/>
+                            <constraint firstItem="5q1-XM-FH5" firstAttribute="centerX" secondItem="Hn7-BX-nsd" secondAttribute="centerX" id="8df-Li-4T8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qFt-eq-3M4" secondAttribute="trailing" id="K2K-B9-xR1"/>
+                            <constraint firstItem="JQ6-KJ-nLh" firstAttribute="top" secondItem="Wdx-gM-ETP" secondAttribute="bottom" constant="1" id="K9N-mm-ONn"/>
+                            <constraint firstItem="Hn7-BX-nsd" firstAttribute="top" secondItem="5q1-XM-FH5" secondAttribute="bottom" constant="8" id="Lv9-Q0-wkR"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TWS-lG-tVD" secondAttribute="bottom" constant="20" id="NZH-6L-h0F"/>
+                            <constraint firstItem="qFt-eq-3M4" firstAttribute="bottom" secondItem="awJ-Fi-HHI" secondAttribute="bottom" id="Tt8-TS-cjY"/>
+                            <constraint firstItem="Hn7-BX-nsd" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" constant="-20" id="WaX-6o-jTU"/>
+                            <constraint firstItem="awJ-Fi-HHI" firstAttribute="top" relation="greaterThanOrEqual" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Y7P-pe-Ckc"/>
+                            <constraint firstItem="qFt-eq-3M4" firstAttribute="top" relation="lessThanOrEqual" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Zep-We-JQJ"/>
+                            <constraint firstItem="Hn7-BX-nsd" firstAttribute="top" relation="greaterThanOrEqual" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="124" id="aeP-hw-6ak"/>
+                            <constraint firstItem="TWS-lG-tVD" firstAttribute="centerX" secondItem="Wdx-gM-ETP" secondAttribute="centerX" id="buC-h6-9qp"/>
+                            <constraint firstItem="pN0-OJ-YKJ" firstAttribute="top" secondItem="qFt-eq-3M4" secondAttribute="bottom" constant="8" id="dWY-pq-tOd"/>
+                            <constraint firstItem="Wdx-gM-ETP" firstAttribute="top" secondItem="Hn7-BX-nsd" secondAttribute="bottom" constant="8" id="eO8-W1-lkK"/>
+                            <constraint firstItem="Hn7-BX-nsd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hbr-7N-K6M"/>
+                            <constraint firstItem="JQ6-KJ-nLh" firstAttribute="centerX" secondItem="Wdx-gM-ETP" secondAttribute="centerX" id="kOZ-EH-yDY"/>
+                            <constraint firstItem="4gl-4x-EXD" firstAttribute="centerX" secondItem="Hn7-BX-nsd" secondAttribute="centerX" id="kio-AB-9H6"/>
+                            <constraint firstItem="Wwm-FX-6rF" firstAttribute="top" secondItem="awJ-Fi-HHI" secondAttribute="bottom" constant="8" id="nsb-y6-FXK"/>
+                            <constraint firstItem="Wdx-gM-ETP" firstAttribute="centerY" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="106" id="tAg-HC-sMA"/>
+                            <constraint firstItem="Hn7-BX-nsd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="waP-Yy-9Yu"/>
+                            <constraint firstItem="awJ-Fi-HHI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="wul-VH-fQ0"/>
+                            <constraint firstItem="Wwm-FX-6rF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-5" id="xPR-RF-q9V"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnChangePasscode" destination="qFt-eq-3M4" id="j78-eq-FtJ"/>
+                        <outlet property="btnDone" destination="TWS-lG-tVD" id="kKx-RG-x3q"/>
+                        <outlet property="btnInfo" destination="4gl-4x-EXD" id="gKz-Eb-PWS"/>
+                        <outlet property="btnMessage" destination="Wdx-gM-ETP" id="hyG-JA-e8B"/>
+                        <outlet property="btnRecipients" destination="awJ-Fi-HHI" id="jZk-Wb-gHm"/>
+                        <outlet property="btnSignal" destination="Hn7-BX-nsd" id="2uT-Zo-wex"/>
+                        <outlet property="lblMessageInfo" destination="JQ6-KJ-nLh" id="qFf-CH-iAc"/>
+                        <outlet property="lblPasscodeInfo" destination="pN0-OJ-YKJ" id="PwG-Vg-qan"/>
+                        <outlet property="lblRecipientInfo" destination="Wwm-FX-6rF" id="cOF-af-MpD"/>
+                        <outlet property="lblSwipeInfo" destination="5q1-XM-FH5" id="rBj-Ip-LgA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="318" y="347"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="distress_gradient.png" width="640" height="400"/>
+    </resources>
+</document>

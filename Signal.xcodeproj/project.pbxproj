@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		318B8E0A1D28C34400A67FE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318B8E091D28C34400A67FE9 /* AppDelegate.swift */; };
+		318B8E0C1D28C34400A67FE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318B8E0B1D28C34400A67FE9 /* ViewController.swift */; };
+		318B8E0F1D28C34400A67FE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 318B8E0D1D28C34400A67FE9 /* Main.storyboard */; };
+		318B8E111D28C34400A67FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318B8E101D28C34400A67FE9 /* Assets.xcassets */; };
+		318B8E141D28C34400A67FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 318B8E121D28C34400A67FE9 /* LaunchScreen.storyboard */; };
+		318B8E1F1D28C34400A67FE9 /* SignalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318B8E1E1D28C34400A67FE9 /* SignalTests.swift */; };
+		318B8E2A1D28C34400A67FE9 /* SignalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318B8E291D28C34400A67FE9 /* SignalUITests.swift */; };
+		31B8A2B51D3206A800365ADB /* distress_gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 31B8A2B41D3206A800365ADB /* distress_gradient.png */; };
+		31B8A2B71D3206AC00365ADB /* safety_gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 31B8A2B61D3206AC00365ADB /* safety_gradient.png */; };
+		31B8A2B91D3207D300365ADB /* signal_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 31B8A2B81D3207D300365ADB /* signal_icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		318B8E1B1D28C34400A67FE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 318B8DFE1D28C34400A67FE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 318B8E051D28C34400A67FE9;
+			remoteInfo = Signal;
+		};
+		318B8E261D28C34400A67FE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 318B8DFE1D28C34400A67FE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 318B8E051D28C34400A67FE9;
+			remoteInfo = Signal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		318B8E061D28C34400A67FE9 /* Signal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Signal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		318B8E091D28C34400A67FE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		318B8E0B1D28C34400A67FE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		318B8E0E1D28C34400A67FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		318B8E101D28C34400A67FE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		318B8E131D28C34400A67FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		318B8E151D28C34400A67FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		318B8E1A1D28C34400A67FE9 /* SignalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		318B8E1E1D28C34400A67FE9 /* SignalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalTests.swift; sourceTree = "<group>"; };
+		318B8E201D28C34400A67FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		318B8E251D28C34400A67FE9 /* SignalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		318B8E291D28C34400A67FE9 /* SignalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalUITests.swift; sourceTree = "<group>"; };
+		318B8E2B1D28C34400A67FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31B8A2B41D3206A800365ADB /* distress_gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = distress_gradient.png; path = "../Project Assets/Signal/distress_gradient.png"; sourceTree = "<group>"; };
+		31B8A2B61D3206AC00365ADB /* safety_gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = safety_gradient.png; path = "../Project Assets/Signal/safety_gradient.png"; sourceTree = "<group>"; };
+		31B8A2B81D3207D300365ADB /* signal_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = signal_icon.png; path = "../Project Assets/Signal/signal_icon.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		318B8E031D28C34400A67FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318B8E171D28C34400A67FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318B8E221D28C34400A67FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		318B8DFD1D28C34400A67FE9 = {
+			isa = PBXGroup;
+			children = (
+				31B8A2B41D3206A800365ADB /* distress_gradient.png */,
+				31B8A2B61D3206AC00365ADB /* safety_gradient.png */,
+				31B8A2B81D3207D300365ADB /* signal_icon.png */,
+				318B8E081D28C34400A67FE9 /* Signal */,
+				318B8E1D1D28C34400A67FE9 /* SignalTests */,
+				318B8E281D28C34400A67FE9 /* SignalUITests */,
+				318B8E071D28C34400A67FE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		318B8E071D28C34400A67FE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				318B8E061D28C34400A67FE9 /* Signal.app */,
+				318B8E1A1D28C34400A67FE9 /* SignalTests.xctest */,
+				318B8E251D28C34400A67FE9 /* SignalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		318B8E081D28C34400A67FE9 /* Signal */ = {
+			isa = PBXGroup;
+			children = (
+				318B8E091D28C34400A67FE9 /* AppDelegate.swift */,
+				318B8E0B1D28C34400A67FE9 /* ViewController.swift */,
+				318B8E0D1D28C34400A67FE9 /* Main.storyboard */,
+				318B8E101D28C34400A67FE9 /* Assets.xcassets */,
+				318B8E121D28C34400A67FE9 /* LaunchScreen.storyboard */,
+				318B8E151D28C34400A67FE9 /* Info.plist */,
+			);
+			path = Signal;
+			sourceTree = "<group>";
+		};
+		318B8E1D1D28C34400A67FE9 /* SignalTests */ = {
+			isa = PBXGroup;
+			children = (
+				318B8E1E1D28C34400A67FE9 /* SignalTests.swift */,
+				318B8E201D28C34400A67FE9 /* Info.plist */,
+			);
+			path = SignalTests;
+			sourceTree = "<group>";
+		};
+		318B8E281D28C34400A67FE9 /* SignalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				318B8E291D28C34400A67FE9 /* SignalUITests.swift */,
+				318B8E2B1D28C34400A67FE9 /* Info.plist */,
+			);
+			path = SignalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		318B8E051D28C34400A67FE9 /* Signal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 318B8E2E1D28C34400A67FE9 /* Build configuration list for PBXNativeTarget "Signal" */;
+			buildPhases = (
+				318B8E021D28C34400A67FE9 /* Sources */,
+				318B8E031D28C34400A67FE9 /* Frameworks */,
+				318B8E041D28C34400A67FE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Signal;
+			productName = Signal;
+			productReference = 318B8E061D28C34400A67FE9 /* Signal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		318B8E191D28C34400A67FE9 /* SignalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 318B8E311D28C34400A67FE9 /* Build configuration list for PBXNativeTarget "SignalTests" */;
+			buildPhases = (
+				318B8E161D28C34400A67FE9 /* Sources */,
+				318B8E171D28C34400A67FE9 /* Frameworks */,
+				318B8E181D28C34400A67FE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				318B8E1C1D28C34400A67FE9 /* PBXTargetDependency */,
+			);
+			name = SignalTests;
+			productName = SignalTests;
+			productReference = 318B8E1A1D28C34400A67FE9 /* SignalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		318B8E241D28C34400A67FE9 /* SignalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 318B8E341D28C34400A67FE9 /* Build configuration list for PBXNativeTarget "SignalUITests" */;
+			buildPhases = (
+				318B8E211D28C34400A67FE9 /* Sources */,
+				318B8E221D28C34400A67FE9 /* Frameworks */,
+				318B8E231D28C34400A67FE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				318B8E271D28C34400A67FE9 /* PBXTargetDependency */,
+			);
+			name = SignalUITests;
+			productName = SignalUITests;
+			productReference = 318B8E251D28C34400A67FE9 /* SignalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		318B8DFE1D28C34400A67FE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Benjamin Streit";
+				TargetAttributes = {
+					318B8E051D28C34400A67FE9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = P34QK5U3UL;
+					};
+					318B8E191D28C34400A67FE9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = P34QK5U3UL;
+						TestTargetID = 318B8E051D28C34400A67FE9;
+					};
+					318B8E241D28C34400A67FE9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = P34QK5U3UL;
+						TestTargetID = 318B8E051D28C34400A67FE9;
+					};
+				};
+			};
+			buildConfigurationList = 318B8E011D28C34400A67FE9 /* Build configuration list for PBXProject "Signal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 318B8DFD1D28C34400A67FE9;
+			productRefGroup = 318B8E071D28C34400A67FE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				318B8E051D28C34400A67FE9 /* Signal */,
+				318B8E191D28C34400A67FE9 /* SignalTests */,
+				318B8E241D28C34400A67FE9 /* SignalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		318B8E041D28C34400A67FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B8A2B91D3207D300365ADB /* signal_icon.png in Resources */,
+				318B8E141D28C34400A67FE9 /* LaunchScreen.storyboard in Resources */,
+				318B8E111D28C34400A67FE9 /* Assets.xcassets in Resources */,
+				31B8A2B51D3206A800365ADB /* distress_gradient.png in Resources */,
+				318B8E0F1D28C34400A67FE9 /* Main.storyboard in Resources */,
+				31B8A2B71D3206AC00365ADB /* safety_gradient.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318B8E181D28C34400A67FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318B8E231D28C34400A67FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		318B8E021D28C34400A67FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318B8E0C1D28C34400A67FE9 /* ViewController.swift in Sources */,
+				318B8E0A1D28C34400A67FE9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318B8E161D28C34400A67FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318B8E1F1D28C34400A67FE9 /* SignalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318B8E211D28C34400A67FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318B8E2A1D28C34400A67FE9 /* SignalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		318B8E1C1D28C34400A67FE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 318B8E051D28C34400A67FE9 /* Signal */;
+			targetProxy = 318B8E1B1D28C34400A67FE9 /* PBXContainerItemProxy */;
+		};
+		318B8E271D28C34400A67FE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 318B8E051D28C34400A67FE9 /* Signal */;
+			targetProxy = 318B8E261D28C34400A67FE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		318B8E0D1D28C34400A67FE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				318B8E0E1D28C34400A67FE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		318B8E121D28C34400A67FE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				318B8E131D28C34400A67FE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		318B8E2C1D28C34400A67FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		318B8E2D1D28C34400A67FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		318B8E2F1D28C34400A67FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Signal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benja.Signal;
+				PRODUCT_NAME = Signal;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		318B8E301D28C34400A67FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Signal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benja.Signal;
+				PRODUCT_NAME = Signal;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		318B8E321D28C34400A67FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SignalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benja.SignalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Signal.app/Signal";
+			};
+			name = Debug;
+		};
+		318B8E331D28C34400A67FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SignalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benja.SignalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Signal.app/Signal";
+			};
+			name = Release;
+		};
+		318B8E351D28C34400A67FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SignalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benja.SignalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Signal;
+			};
+			name = Debug;
+		};
+		318B8E361D28C34400A67FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SignalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benja.SignalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Signal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		318B8E011D28C34400A67FE9 /* Build configuration list for PBXProject "Signal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				318B8E2C1D28C34400A67FE9 /* Debug */,
+				318B8E2D1D28C34400A67FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		318B8E2E1D28C34400A67FE9 /* Build configuration list for PBXNativeTarget "Signal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				318B8E2F1D28C34400A67FE9 /* Debug */,
+				318B8E301D28C34400A67FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		318B8E311D28C34400A67FE9 /* Build configuration list for PBXNativeTarget "SignalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				318B8E321D28C34400A67FE9 /* Debug */,
+				318B8E331D28C34400A67FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		318B8E341D28C34400A67FE9 /* Build configuration list for PBXNativeTarget "SignalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				318B8E351D28C34400A67FE9 /* Debug */,
+				318B8E361D28C34400A67FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 318B8DFE1D28C34400A67FE9 /* Project object */;
+}
